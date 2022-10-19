@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Board>
+	<Header>
+		<Stage>1</Stage>
+		<Dimensions>20 24</Dimensions>
+		<Player>10 10</Player>
+		<Time>60</Time>
+	</Header>
+	<Tiles>
+	<!--Unspecified positions will be empty FreeTiles-->
+		<Exits>
+		<!--ExitTiles are specified in the following format: x, y, t-->
+		<!--Where x is the x position, y is the y position, and t is the number of treasures needed to pass-->
+			<Exit>1 1 5</Exit>
+		</Exits>
+		<Helps>
+		<!--HelpTiles are specified in the following format: x, y, s-->
+		<!--Where x is the x position, y is the y position, and s is a String of the help text the tile will contain -->
+			<Help>4 1 Help Tile Test</Help>
+		</Helps>
+		<Walls>
+		<!--WallTiles are specified in the following format: x, y-->
+		<!--Where x is the x position and y is the y position-->
+			<Wall>0 0</Wall>
+			<Wall>1 0</Wall>
+			<Wall>2 0</Wall>
+			<Wall>3 0</Wall>
+			<Wall>4 0</Wall>
+			<Wall>5 0</Wall>
+			<Wall>6 0</Wall>
+			<Wall>7 0</Wall>
+			<Wall>8 0</Wall>
+			<Wall>9 0</Wall>
+			<Wall>10 0</Wall>
+			<Wall>11 0</Wall>
+			<Wall>12 0</Wall>
+			<Wall>13 0</Wall>
+			<Wall>14 0</Wall>
+			<Wall>15 0</Wall>
+			<Wall>16 0</Wall>
+			<Wall>17 0</Wall>
+			<Wall>18 0</Wall>
+			<Wall>19 0</Wall>
+			<Wall>11 10</Wall>
+			<Wall>11 11</Wall>
+			<Wall>12 12</Wall>
+		</Walls>
+	</Tiles>
+	<Items>
+		<Keys>
+			<Key>4 4 BLUE</Key>
+		</Keys>
+		<Treasures>
+			
+		</Treasures>
+	</Items>
+	<Gates>
+		<KeyGates>
+			<KeyGate>4 5 BLUE</KeyGate>
+			<KeyGate>4 6 RED</KeyGate>
+		</KeyGates>
+		<TreasureGates>
+			
+		</TreasureGates>
+	</Gates>
+	<NonPlayerActors>
+		<BugEnemies>
+		
+		</BugEnemies>
+	</NonPlayerActors>
+</Board>

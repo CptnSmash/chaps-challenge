@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Board>
+	<Header>
+		<Dimensions>20 24</Dimensions>
+		<Player>10 10</Player>
+		<Time>60</Time>
+	</Header>
+	<Tiles>
+		<Tile>Wall 0 0</Tile>
+		<Tile>Wall 1 0</Tile>
+		<Tile>Wall 2 0</Tile>
+		<Tile>Wall 3 0</Tile>
+		<Tile>Wall 4 0</Tile>
+		<Tile>Wall 5 0</Tile>
+		<Tile>Wall 6 0</Tile>
+		<Tile>Wall 7 0</Tile>
+		<Tile>Wall 8 0</Tile>
+		<Tile>Wall 9 0</Tile>
+		<Tile>Wall 10 0</Tile>
+		<Tile>Wall 11 0</Tile>
+		<Tile>Wall 12 0</Tile>
+		<Tile>Wall 13 0</Tile>
+		<Tile>Wall 14 0</Tile>
+		<Tile>Wall 15 0</Tile>
+		<Tile>Wall 16 0</Tile>
+		<Tile>Wall 17 0</Tile>
+		<Tile>Wall 18 0</Tile>
+		<Tile>Wall 19 0</Tile>
+		
+		
+		
+		
+		<Tile>Wall 11 10</Tile>
+		<Tile>Wall 11 11</Tile>
+		<Tile>Wall 12 12</Tile>
+		<Tile>Help 4 1</Tile>
+		<Tile>Exit 1 1</Tile>
+	</Tiles>
+	<Items>
+		<Item>Key 4 4 BLUE</Item>
+	</Items>
+	<Gates>
+		<Gate>KeyGate 4 5 BLUE</Gate>
+		<Gate>KeyGate 4 6 RED</Gate>
+	</Gates>
+</Board>

@@ -1,0 +1,23 @@
+<Board>
+	<Header>
+		<Dimensions>20 24</Dimensions>
+		<Player>10 10</Player>
+	</Header>
+	<Tiles>
+		<Tile>Wall 11 10</Tile>
+		<Tile>Wall 11 11</Tile>
+		<Tile>Wall 12 12</Tile>
+		<Tile>Help 4 0</Tile>
+		<Tile>Exit 0 1</Tile>
+	</Tiles>
+	<Actors>
+		<Actor> BugEnemy 8 8</Actor>
+	</Actors>
+	<Items>
+		<Item>Key 4 4 BLUE</Item>
+	</Items>
+	<Gates>
+		<Gate>KeyGate 4 5 BLUE</Gate>
+		<Gate>KeyGate 4 6 RED</Gate>
+	</Gates>
+</Board>
